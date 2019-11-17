@@ -1,0 +1,59 @@
+[
+  {
+    "_id": 1,
+    "name": "Beans",
+    "zindex": 1,
+    "price": 0,
+    "image": "beans"
+  },
+  {
+    "_id": 2,
+    "name": "Guacamole",
+    "zindex": 2,
+    "price": 2,
+    "image": "guacamole"
+  },
+  {
+    "_id": 3,
+    "name": "Rice",
+    "zindex": 3,
+    "price": 0,
+    "image": "rice"
+  },
+  {
+    "_id": 4,
+    "name": "Cheese",
+    "zindex": 4,
+    "price": 0,
+    "image": "cheese"
+  },
+
+  {
+    "_id": 5,
+    "name": "Chicken",
+    "zindex": 6,
+    "price": 0,
+    "image": "meat"
+  },
+  {
+    "_id": 6,
+    "name": "Pork",
+    "zindex": 6,
+    "price": 0,
+    "image": "meat"
+  },
+  {
+    "_id": 7,
+    "name": "Salsa",
+    "zindex": 7,
+    "price": 0,
+    "image": "salsa"
+  },
+  {
+    "_id": 8,
+    "name": "Sour Cream",
+    "zindex": 8,
+    "price": 0,
+    "image": "sourcream"
+  }
+]

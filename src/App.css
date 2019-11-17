@@ -23,16 +23,46 @@
 }
 
 /* ///Burrito/// */
+.Tortilla {
+  z-index: 0;
+}
+
+.Beans {
+  z-index: 1;
+}
+
+.Guacamole {
+  z-index: 3;
+}
+
+.Cheese {
+  z-index: 5;
+}
+
+.SourCream {
+  z-index: 8;
+}
+
+.Rice {
+  z-index: 4;
+}
+
+.Salsa {
+  z-index: 7;
+}
+
+.Chicken,
+.Pork {
+  z-index: 6;
+}
+
 .burrito-container {
+  height: 500px;
   position: relative;
-  top: 300px;
-  left: 0;
-  width: 40%;
-  margin: 0 auto;
 }
 
 .burrito {
-  width: 100%;
+  width: 40%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -62,4 +92,38 @@
 .start-button:active {
   position: relative;
   top: 1px;
+}
+
+/* OrderForm */
+.checkboxes {
+  /* margin: 4rem 2rem; */
+  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+.order-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto 50px auto;
+  align-items: center;
+}
+
+.submit {
+  width: 30%;
+  background: linear-gradient(to bottom, #bd6800 5%, #db7800 100%);
+  background-color: #bd6800;
+  border-color: #bd6800;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #f77e13;
+  margin: 30px;
 }

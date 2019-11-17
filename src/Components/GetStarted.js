@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function GetStarted() {
+export default function GetStarted(props) {
   return (
     <div>
-      <button type="button" className="start-button">
+      <button onClick={props.openOrder} type="button" className="start-button">
         Place an Order!
       </button>
     </div>
