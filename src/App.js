@@ -1,12 +1,18 @@
 import React from "react";
 import "./App.css";
-import Burrito from "./Components/Burrito";
+import Layout from "./Components/Layout";
 
 function App() {
   return (
     <div className="App">
-      <h1>Burrito Palace</h1>
-      <Burrito />
+      <h1 className="title">BURRITO PALACE</h1>
+      <img
+        className="burrito-home"
+        src={require("./Assets/burrito-home.png")}
+        alt="test"
+      ></img>
+      {/* <h4 className="address">4557 Dancing Dove Lane, Elmsford, NY 10523</h4> */}
+      <Layout />
     </div>
   );
 }
